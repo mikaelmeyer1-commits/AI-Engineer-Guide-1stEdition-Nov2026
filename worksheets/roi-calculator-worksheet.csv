@@ -1,0 +1,24 @@
+"Education ROI Worksheet — How to Become an AI Engineer, Appendix E"
+#,Item,Your figure,Source & date,How to fill it
+1,Tuition or course fees,,,"The verified figure from Appendix A / the directory chapters, on its printed basis (see ""Verified cost bases"" below) — or your own figure from the provider's current official fee schedule or checkout page, dated"
+2,Examination fees,,,"Sum of the official list fees for the examinations you plan, per attempt, multiplied by the attempts you budget (retakes included). Verified fees are in Appendix B"
+3,"Software, cloud, laboratory",,,"Your estimate, checked against provider pricing pages"
+4,Books and materials,,,"Your figure, from syllabi and your equipment inventory"
+5,Study mode and expected duration,,,Part-time or full-time; months to completion at your planned weekly hours
+6,"Current salary, and any reduction in hours",,,"Your employment terms. Lost income (a formula output, below) derives from these"
+7,Opportunity-cost assumption,,,"Your hourly value — a rate, stated explicitly. It is an assumption, never a finding. (The opportunity cost itself is formula 6's output, not an input: do not enter a pre-multiplied total here)"
+8,Assumed annual gain — expected case,,,"Your figure, with its source and date recorded beside it (Chapter 3 table, written offer, employer pay band, or labelled personal estimate)"
+9,Assumed annual gain — pessimistic case,,,"A deliberately unfavourable version of input 8 (smaller raise, later start, longer job search)"
+10,Assumed annual gain — optimistic case,,,"A favourable version of input 8 — used for the sensitivity table, never for the decision"
+11,Financing and incidentals,,,"Interest over the repayment period, application and travel costs, from your loan documents and estimates"
+
+Outputs (formulas in words — build as single cells referencing the inputs)
+"1. Subscription pathway cost = months actually taken × your regional checkout price for one month. (There is no other honest form: a subscription has no fixed total. See ON-01, ON-02, ON-05 in Appendix A.)"
+"2. Per-credit programme cost = per-credit-hour rate × number of credits + (number of semesters × per-semester fee). UN-01's online learning fee is verified for Fall 2026 (USD 212 under 4 credit hours; USD 531 at 4 or more — see ""Verified cost bases"" below). For a future term, where the fee amount may have changed, enter it as a variable (call it F), obtain the current amount from the institution's official fee page before deciding, and never let a scenario built on F present itself as a published price."
+3. Rate-schedule programme cost = the sum of the actual term-by-term charges at your planned enrolment pattern. A quarterly or annual rate is never multiplied into a programme total the institution does not publish (UN-04's schedule; UN-05's annual rate).
+4. Total cash cost = inputs 1 + 2 + 3 + 4 + 11.
+"5. Lost income = (reduction in working hours, as a fraction of full-time) × current salary × duration in years. Zero for part-time study at unchanged hours."
+"6. Opportunity cost = input 7 (your hourly value) × the planned study hours that are not already counted as lost income under formula 5. An hour is priced once, never twice (Chapter 7's rule): hours given up from paid work belong to formula 5; the remaining study hours belong here."
+7. Total economic cost = total cash cost + lost income + opportunity cost.
+"8. Break-even time, per case = total economic cost ÷ that case's assumed annual gain (inputs 8, 9, 10). If a case's gain is 0, the result is Never."
+"9. Part-time vs full-time comparison = run the whole calculation twice (once per mode) and compare three outputs: total cash cost; total economic cost; expected completion date. Decide on the second and third outputs, as Chapter 7 instructs — the mode with the lower cash cost routinely carries the higher economic cost and the later completion."

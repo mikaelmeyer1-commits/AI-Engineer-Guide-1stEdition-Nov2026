@@ -28,6 +28,7 @@ It is maintained for at least the first year after publication, and kept afterwa
 | `README.md` | This page |
 | `errata.md` | Corrections to the printed text, by chapter — what the book says, and what the verified fact is |
 | `CHANGELOG.md` | Major post-publication changes that overtake facts in the book (launches, retirements, closures, fee changes), each checked against the provider's official source |
+| `worksheets/` | Blank copies of the book's working templates, for your personal use: the learning plans (Appendix D), the ROI worksheet (Appendix E, as a page and as a spreadsheet file), and the portfolio project checklist (Appendix K) |
 | Issues | The reader error-report channel — see below |
 
 ## How to report an error
